@@ -37,16 +37,6 @@ $session = \Stripe\Checkout\Session::create([
   	  
   	  <script>
   	  	    var stripe = Stripe('pk_test_51KtGFRDWCL1HiK9UwYcH9PlAYKGEw5S8bnQx9wjRGgCpsoUds5xIxu2Y0VEv1XHml4TSuK7k8UbPCgIUnmn8bvFH00qB4rQznf');
-  	  	    //var btn = document.getElementById('checkout-button');
-  	  	    //btn.addEventListener('click', function(e) {
-            //      e.preventDefault();
-                  //stripe.redirectToCheckout({
-                 // 	 sessionId: '<?php echo $session->id ?>'
-                  // window.location='<?php echo $session->url ?>'
-              //     window.location.href = 'http://www.devmedia.com.br'
-                  //alert('teste');
-            //      });
-           // });
 
           function myFunction() {
                       window.location = '<?php echo $session->url ?>';
