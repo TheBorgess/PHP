@@ -35,16 +35,14 @@ $session = \Stripe\Checkout\Session::create([
 
   <body>
   	  
-  	  <script>
+   	<script>
   	  	    var stripe = Stripe('pk_test_51KtGFRDWCL1HiK9UwYcH9PlAYKGEw5S8bnQx9wjRGgCpsoUds5xIxu2Y0VEv1XHml4TSuK7k8UbPCgIUnmn8bvFH00qB4rQznf');
 
           function myFunction() {
                       window.location = '<?php echo $session->url ?>';
            }
-
       </script>
 
-      <!--<button id="checkout-button">Checkout</button>-->
       <br><br>
         <h2>Click no botao abaixo para fazer o Checkout.</h2>
       <br>   
