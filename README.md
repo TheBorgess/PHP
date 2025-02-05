@@ -2,4 +2,4 @@
 
 Projects in PHP.
 
-PDO and DAO.
+PDO (PHP Data Objects) and DAO (Data Access Object)
